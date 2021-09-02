@@ -41,6 +41,7 @@ end;
 
 function TControllerNotaFiscalGravar.Execute: iCommand;
 begin
+  Result:= Self;
   fParent.Gravar;
 end;
 
